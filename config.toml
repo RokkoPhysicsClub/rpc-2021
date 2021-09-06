@@ -7,7 +7,7 @@ hasCJKLanguage = true
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
 googleAnalytics = ""
-publishDir = "dist"
+publishDir = "docs"
 
 [params]
   # Style options: default (pink), blue, green, pink, red, sea, violet
