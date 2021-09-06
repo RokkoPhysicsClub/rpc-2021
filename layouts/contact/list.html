@@ -1,0 +1,17 @@
+{{ define "main" }}
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  {{ partial "mobile_nav_toggle.html" . }}
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+        <h4>普段の活動を発信しています:</h4>
+        {{ partial "social_buttons_in_contact.html" . }}
+        {{ with .Site.Params.email }}
+        {{ end }}
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
