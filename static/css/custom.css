@@ -52,7 +52,8 @@ section.background-secondary {
 }
 .italic {
   font-style: italic;
-  font-family: "Georgia", "Times New Roman", Times, serif;
+  // font-family: "Georgia", "Times New Roman", Times, serif;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
 }
 .img-responsive {
   margin: 0 auto;
@@ -1583,7 +1584,8 @@ STYLE SWITCHER FOR DEMO
 }
 /* scaffolding */
 body {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  // font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
   font-size: 16px;
   line-height: 1.55;
   color: #000000;
@@ -1948,7 +1950,8 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  // font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
   font-weight: 700;
   line-height: 1.2;
   color: #000000;

@@ -7,7 +7,7 @@ draft: false
 weight: 21
 ---
 
-<div align="right">81期 motimiti</div>
+<div align="right">81st motimiti</div>
 
 
 ## はじめに

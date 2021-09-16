@@ -7,7 +7,7 @@ draft: false
 weight: 2
 ---
 
-<div align="right">80期 k_kiri</div>
+<div align="right">80th k_kiri</div>
 
 ## はじめに
 
@@ -46,7 +46,10 @@ weight: 2
 
 ### ソフトウェアなど
 
-現時点では、OpenMPIを用いた並列計算が可能。
+現時点では、OpenMPIを用いたプロセス並列計算が可能だ。
+そもそも、MPI（Message Passing Interface）とは、並列計算プログラミングを提供する枠組みであり、OpenMPIはMPIの実装の1つである。
+純粋なMPI並列ではコア1つにプロセス1つを割り当てるが、プロセス並列であるため、プロセス間はメモリを共有しない。
+したがって、プロセス間で情報の共有や処理の同期が必要となることがある。
 
 ### 性能
 - CPU: Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC

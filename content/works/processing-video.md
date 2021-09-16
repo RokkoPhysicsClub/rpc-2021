@@ -7,7 +7,7 @@ draft: false
 weight: 20
 ---
 
-<div align="right">82期 F</div>
+<div align="right">82nd 2940</div>
 
 ## 概要
 Webカメラから入力した画像をリアルタイムでフィルタ処理するものです。

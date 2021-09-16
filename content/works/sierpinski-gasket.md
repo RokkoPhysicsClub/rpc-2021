@@ -6,7 +6,7 @@ draft: false
 weight: 6
 ---
 
-<div align="right">83期 harumaki</div>
+<div align="right">83rd harumaki</div>
 
 ## はじめに
 今回発表するのはシェルピンスキーのギャスケットを描画するプログラムだ。

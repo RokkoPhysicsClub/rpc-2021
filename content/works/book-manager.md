@@ -7,7 +7,7 @@ draft: false
 weight: 7
 ---
 
-<div align="right">80期 k_kiri</div>
+<div align="right">80th k_kiri</div>
 
 ---
 
