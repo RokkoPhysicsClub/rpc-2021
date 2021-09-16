@@ -66,3 +66,8 @@ publishDir = "docs"
   github        = "https://github.com/RokkoPhysicsClub"
   youtube       = "https://www.youtube.com/channel/UCvLDGaFKdbpQ7vELdrUSyCw"
   #whatsapp      = "wa.me service link"
+
+  [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
