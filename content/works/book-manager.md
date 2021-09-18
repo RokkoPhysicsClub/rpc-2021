@@ -4,7 +4,7 @@ date: 2021-9-7
 description: "結局あんまり使えないウェブサービス。"
 image: "./img/k_kiri/thumbnail_bm.png"
 draft: false
-weight: 7
+weight: 8
 ---
 
 <div align="right">80th k_kiri</div>
@@ -12,7 +12,7 @@ weight: 7
 ---
 
 蔵書管理システム「Book Manager 65」は[こちら](https://book-manager65.herokuapp.com/)から見ることができます。
-![スクリーンショット](../../img/k_kiri/bm-01.png)
+![スクリーンショット](./../../img/k_kiri/bm-01.png)
 
 ---
 

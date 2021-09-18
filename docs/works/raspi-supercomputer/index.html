@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>ラズパイ・スパコン</title>
+<meta name="description" content="六甲学院物理部の2021年度オンライン文化祭非公式サイト">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/owl.carousel.css">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/owl.theme.css">
+
+
+  <link href="https://rokkophysicsclub.github.io/rpc-2021/css/style.sea.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://rokkophysicsclub.github.io/rpc-2021/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://rokkophysicsclub.github.io/rpc-2021/img/favicon.png">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-JHR8TX2M07', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://rokkophysicsclub.github.io/rpc-2021/">六甲学院物理部2021</a></h1>
+    
+      <p class="sidebar-p">六甲学院物理部の2021年度オンライン文化祭サイトです。（学校非公式）</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://rokkophysicsclub.github.io/rpc-2021/welcome/">Welcome</a></li>
+      
+        <li><a href="https://rokkophysicsclub.github.io/rpc-2021/works/">Works</a></li>
+      
+        <li><a href="https://rokkophysicsclub.github.io/rpc-2021/about/">About</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  <a href="https://twitter.com/rokkophysics" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  
+  
+  
+  <a href="https://github.com/RokkoPhysicsClub" data-animate-hover="pulse" class="external">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="https://www.youtube.com/channel/UCvLDGaFKdbpQ7vELdrUSyCw" data-animate-hover="pulse" class="external">
+    <i class="fa fa-youtube"></i>
+  </a>
+  
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2021 六甲学院物理部 |
+        
+        Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+</script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://rokkophysicsclub.github.io/rpc-2021/">六甲学院物理部2021</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+        <h1>ラズパイ・スパコン</h1>
+        <div align="right">80th k_kiri</div>
+<h2 id="はじめに">はじめに</h2>
+<p>タイトル「ラズパイ・スパコン」は明らかに誇張表現だ。先ず謝っておこうと思う。
+しかし、スパコンと呼ぶのには理由がある。</p>
+<p>このラズパイ・スパコンは、4つのシングルボードコンピュータ・Raspberry Pi（以下、ラズパイ）から構成されており、計16コアのCPUで並列計算をすることが可能だ。
+有名なスーパーコンピュータはどれも、たくさんのCPUを並列に動かすことによって莫大な量の計算を高速に実行している。
+その仕組みをほんの一部切り取ったのがこのラズパイ・スパコンなのである。
+（というのも又誇張だろうか・・・）</p>
+<h2 id="レシピ">レシピ</h2>
+<h3 id="材料">材料</h3>
+<p>ラズパイ・スパコンの製作あたって使用した部品リスト</p>
+<table>
+<thead>
+<tr>
+<th>名前</th>
+<th>個数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://akizukidenshi.com/catalog/g/gM-14778/">Raspberry Pi 4 (Model B)</a></td>
+<td>4</td>
+</tr>
+<tr>
+<td>ヒートシンク</td>
+<td>4セット</td>
+</tr>
+<tr>
+<td>積層式ケース</td>
+<td>1</td>
+</tr>
+<tr>
+<td>microSDカード</td>
+<td>4</td>
+</tr>
+<tr>
+<td>LANケーブル</td>
+<td>4</td>
+</tr>
+<tr>
+<td>usbケーブル (type c)</td>
+<td>4</td>
+</tr>
+<tr>
+<td><a href="https://jp.aukey.com/products/63w-5-ports-usb-charger-pa-Y23">充電器（電源用）</a></td>
+<td>1</td>
+</tr>
+<tr>
+<td>スイッチング・ハブ</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="raspberry-pi-ラズパイについて">Raspberry Pi (ラズパイ)について</h3>
+<p>ラズパイは、端的に言うと1枚の基盤に載ったパソコンである。
+主に教育用として作られたものであるため、パソコンとしては非常に安価であるのが特徴だ。
+もちろん、一般的なパソコンに性能は劣るが、インターネットを閲覧したり、動画を再生したり、一般的な用途にも幅広く活用できる。</p>
+<p>ラズパイのもう一つの特徴はGPIOピンが搭載されていることだ。ラズパイ・スパコンでは利用していないが、電子工作などで活用できる。</p>
+<h3 id="ソフトウェアなど">ソフトウェアなど</h3>
+<p>現時点では、OpenMPIを用いたプロセス並列計算が可能だ。
+そもそも、MPI（Message Passing Interface）とは、並列計算プログラミングを提供する枠組みであり、OpenMPIはMPIの実装の1つである。
+純粋なMPI並列ではコア1つにプロセス1つを割り当てるが、プロセス並列であるため、プロセス間はメモリを共有しない。
+したがって、プロセス間で情報の共有や処理の同期が必要となることがある。</p>
+<h3 id="性能">性能</h3>
+<ul>
+<li>CPU: Broadcom BCM2711, quad-core Cortex-A72 (ARM v8) 64-bit SoC</li>
+<li>RAM: 合計10GB（4GB + 2GB ✕ 3）</li>
+<li>OS: RaspberryPi OS</li>
+</ul>
+<h3 id="大まかな手順">大まかな手順</h3>
+<ol>
+<li>組み立てる。</li>
+<li>Masterノード<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>とSlaveノードに、OpenMPIなどの開発環境をインストール。</li>
+<li>IPアドレスを固定する。</li>
+<li>hostsファイルを編集してIPアドレスとホスト名を対応させ、いちいちIPアドレスを指定する手間を削減。</li>
+<li>SSH接続のためにMasterノードで認証鍵を生成し、Slaveノードに転送する。</li>
+<li>keychainを使って認証を省略できるように設定。</li>
+<li>Masterノード上にマウント可能な共有ディレクトリを作る。</li>
+<li>Slaveノードが自動で共有ディレクトリをマウントするように設定。</li>
+<li><code>mpiexec</code>と<code>-H</code>オプションで、OpenMPIを使って書いた並列計算プログラムが実行できる。</li>
+</ol>
+<h2 id="実際に試す">実際に試す</h2>
+<p>HelloWorldの代わりに16個全てのコアからメッセージを送った。
+<img src="./../../img/k_kiri/raspi-02.png" alt="helloworld">
+円周率を求めるプログラムと、スパコン体験塾で製作した素数ゼミシミュレーション<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>を並列化してラズパイ・スパコン上で走らせてみた。</p>
+<h2 id="写真">写真</h2>
+<p><img src="./../../img/k_kiri/raspi-01.jpg" alt="製作中の写真">
+<img src="./../../img/k_kiri/raspi-02.jpg" alt="完成後の写真">
+かっこいい。</p>
+<h2 id="苦労">苦労</h2>
+<p>ネットワークの設定に苦労した。部室からインターネットに接続するためには学校のプロキシサーバーを経由しなければならない。又、複数のラズパイを一度の設定で接続できるようにIPアドレスを固定しなければならない。これらの2つを両立できなかった。
+結局、インターネットに接続することはできないまま、ソフトウェアは自宅でインストールすることになった。
+完全にネットワークに関する自分の知識不足である。
+しかし、この経験を通して少しネットワークに関する知識とLinuxに関する知識は深まったと思う。この知識がどこで役に立つかはまだわからないが。</p>
+<h2 id="あとがき">あとがき</h2>
+<p>このラズパイ・スパコンは趣味の産物だ。実用性はほとんどない。単純な計算力で比較するとIntel core iシリーズや、AMD Ryzenシリーズの１つのCPUに及ばないだろう。しかし、自分でラズパイを連携させて並列計算させることは面白いし、ロマンのある研究（工作？）になったと思う。
+後悔があるとすれば、4ノードでは少なかったことだ。16ノードくらいほしいところだが、特に使い道も無くLinuxとOpenMPIによる並列計算の学習にしか使えないものなので4ノード程度で丁度良かったのかもしれない。</p>
+<p>また、私が並列計算の手法を教わり、この研究（工作）のきっかけとなったのは高度情報科学技術研究機構（RIST）が主催する「スパコン体験塾」だ。こちらについての<a href="../spacon-taikenjuku">記事</a>もぜひ参照してほしい。</p>
+<p>最後に、この研究のために期間限定で学校のIPアドレスを４つ固定してくださった技術科のN先生の協力に多大なる感謝を申し上げる。</p>
+<h2 id="参考文献">参考文献</h2>
+<ol>
+<li>Carlos R. Morrison, (齊藤 哲哉 訳), <a href="https://www.amazon.co.jp/dp/4320124375">Raspberry Piでスーパーコンピュータをつくろう!</a>, 共立出版, 2018/8/24</li>
+<li><a href="http://www.cenav.org/raspi2/">計算工学ナビ-RaspberryPiクラスタ製作記</a>, 2021/9/03閲覧</li>
+</ol>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>参考文献[1]に倣い、他のノードの管理を行うノードをMaster、計算のみ行うノードをSlaveノードと呼ぶ&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p><a href="../spacon-taikenjuku">こちら</a>の記事を参照&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        
+        <a href="https://twitter.com/intent/tweet?button_hashtag=六甲学院物理部2021&ref_src=twsrc%5Etfw"
+          class="twitter-hashtag-button" data-show-count="false">Tweet #六甲学院物理部2021</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://rokkophysicsclub.github.io/rpc-2021/js/jquery.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/bootstrap.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/jquery.cookie.js"> </script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/ekko-lightbox.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/jquery.scrollTo.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/masonry.pkgd.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/owl.carousel.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/front.js"></script>
+
+
+
+</body>
+</html>

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ja-jp">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<title>自作プログラミング言語</title>
+<meta name="description" content="六甲学院物理部の2021年度オンライン文化祭非公式サイト">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="all,follow">
+<meta name="googlebot" content="index,follow,snippet,archive">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/bootstrap.min.css">
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:400,300,700,400italic">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/owl.carousel.css">
+<link rel="stylesheet" href="https://rokkophysicsclub.github.io/rpc-2021/css/owl.theme.css">
+
+
+  <link href="https://rokkophysicsclub.github.io/rpc-2021/css/style.sea.css" rel="stylesheet" id="theme-stylesheet">
+
+ 
+
+  
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  
+
+
+<link href="https://rokkophysicsclub.github.io/rpc-2021/css/custom.css" rel="stylesheet">
+<link rel="shortcut icon" href="https://rokkophysicsclub.github.io/rpc-2021/img/favicon.png">
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'G-JHR8TX2M07', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+</head>
+<body>
+  <div id="all">
+      <div class="container-fluid">
+          <div class="row row-offcanvas row-offcanvas-left">
+              <div id="sidebar" class="col-xs-6 col-sm-4 col-md-3 sidebar-offcanvas">
+  <div class="sidebar-content">
+    <h1 class="sidebar-heading"><a href="https://rokkophysicsclub.github.io/rpc-2021/">六甲学院物理部2021</a></h1>
+    
+      <p class="sidebar-p">六甲学院物理部の2021年度オンライン文化祭サイトです。（学校非公式）</p>
+    
+    <ul class="sidebar-menu">
+      
+        <li><a href="https://rokkophysicsclub.github.io/rpc-2021/welcome/">Welcome</a></li>
+      
+        <li><a href="https://rokkophysicsclub.github.io/rpc-2021/works/">Works</a></li>
+      
+        <li><a href="https://rokkophysicsclub.github.io/rpc-2021/about/">About</a></li>
+      
+    </ul>
+    <p class="social">
+  
+  
+  
+  <a href="https://twitter.com/rokkophysics" data-animate-hover="pulse" class="external twitter">
+    <i class="fa fa-twitter"></i>
+  </a>
+  
+  
+  
+  
+  
+  
+  <a href="https://github.com/RokkoPhysicsClub" data-animate-hover="pulse" class="external">
+    <i class="fa fa-github"></i>
+  </a>
+  
+  
+  <a href="https://www.youtube.com/channel/UCvLDGaFKdbpQ7vELdrUSyCw" data-animate-hover="pulse" class="external">
+    <i class="fa fa-youtube"></i>
+  </a>
+  
+  
+</p>
+
+
+    <div class="copyright">
+      <p class="credit">
+        
+          &copy;2021 六甲学院物理部 |
+        
+        Template by <a href="https://bootstrapious.com/free-templates" class="external">Bootstrapious.com</a>
+
+&amp; ported to Hugo by <a href="https://github.com/kishaningithub">Kishan B</a>
+
+<script type="text/x-mathjax-config">
+  MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ["\\(","\\)"]] } });
+</script>
+<script async src="//cdn.bootcss.com/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML">
+</script>
+      </p>
+    </div>
+  </div>
+</div>
+
+              
+<div class="col-xs-12 col-sm-8 col-md-9 content-column white-background">
+  <div class="small-navbar visible-xs">
+  <button type="button" data-toggle="offcanvas" class="btn btn-ghost pull-left"> <i class="fa fa-align-left"> </i>Menu</button>
+  <h1 class="small-navbar-heading"><a href="https://rokkophysicsclub.github.io/rpc-2021/">六甲学院物理部2021</a></h1>
+</div>
+
+  <div class="row">
+    <div class="col-lg-8">
+      <div class="content-column-content">
+        <h1>自作プログラミング言語</h1>
+        <div align="right">80th k_kiri</div>
+<p><code>注意：素人なので専門用語等に関して不正確である可能性があります。ご了承下さい。</code></p>
+<h2 id="はじめに">はじめに</h2>
+<p>C, C++, C#, Java, Python, Julia, JavaScript, Rubyなど、プログラミング言語はたくさんある。
+しかし、私達が書いたプログラムがどのようにコンピュータに実行されるのか疑問に思ったことはないだろうか。
+私は疑問に感じたため、仕組みを知るために簡単なプログラミング言語を作ろうと思い立った。</p>
+<p>というのは、プログラミング言語を作ってみようと思った表向きの理由で、もう一つ作った理由がある。
+私は、中学生の頃シューティングゲームを作っていた。その時、ゲームのステージの設計をしていたのたが、ステージをコンパイル言語の中に書きコンパイルしてしまうと、少しの修正でも再コンパイルが必要になり面倒だった。そこで私はゲームのステージのデータを外部に保存し、それを読み込んで使おうと考えた。そこから試行錯誤が始まった。</p>
+<p>先ず試したのは、単純なテキストデータに敵の位置や弾幕の種類を書いてそれを読み込むことだ。それでも良かったのだが、少し物足りないと感じた。
+その時は敵の弾幕をメインプログラムの中に書いており、外部から読み込むテキストでは種類を指定するのみだった。
+やはり、弾幕のデータも外部ファイルで指定し、弾の位置を計算させたいと思ったため、別のスクリプト言語と組み合わせてみようと思った。調べてみると、Luaというスクリプト言語がC++との相性がいいらしい。しかし、Luaの情報は少なく、思ったように動かすことはできなかった。
+紆余曲折の末、自分でスクリプト言語を作ってみることにした。</p>
+<p>この文化祭では、（シューティングゲームを作るのに飽きて、）スクリプト言語だけが出来上がったので、それを発表したい。</p>
+<h2 id="仕組み">仕組み</h2>
+<p>一般的な言語がコンピュータで実行される流れは大まかに以下の図の様になっている。
+<img src="./../../img/k_kiri/lang-01.png" alt="fig-1"></p>
+<p>途中で2手に別れているのは、コンパイラとインタプリタの差だ。
+言うまでもなく左側のルートがコンパイラである。</p>
+<p>コンパイラは、ソースコードを別の言語で書かれたプログラムに変換するソフトウェアだ。変換先の言語はコンピュータが直接実行できる機械語であることが多い。コンパイル形式の言語にはC言語やC++言語がある。
+対して、インタプリタは、プログラムを実際に実行するソフトウェアだ。インタプリタ言語にはPythonやJavaScriptなどがある。</p>
+<p>私が作ったのは、右のルートのインタプリタ形式のスクリプト言語だ。
+コンパイル言語に比べるとパスが少ない分、楽に作れる。</p>
+<h2 id="各段階の説明実装">各段階の説明・実装</h2>
+<p>はじめに、プロジェクト名を決めた。C言語に因んでShe言語と呼ぶことにした。
+名前には特に意味はないが、コナン・ドイルのシャーロック・ホームズに関連している。詳しくは調べてほしい。
+文法・構文等もC言語とはかけ離れている。</p>
+<p>She言語の処理系を実装する言語としてC#を使った。
+普通はC言語やC++言語を使うのかもしれないが、参考にした書籍（参考書籍[1]）がJavaを使用したオブジェクト指向で綺麗に実装していたので、それに感銘を受け、同じくオブジェクト指向かつ自分が書きやすいC#で書くことにした。</p>
+<h3 id="文法">文法</h3>
+<p>BNF記法でのShe言語文法定義。</p>
+<pre><code>---基礎---
+primary       := ( &quot;(&quot; expr &quot;)&quot; | NUMBER | IDENTIFIER | STRING ) { postfix }
+factor        := &quot;-&quot; primary | primary
+expr          := factor { OP factor }
+block         := &quot;{&quot; [ statement ] {(&quot;;&quot; | EOL) [ statement ]} &quot;}&quot;
+simple        := expr [ args ]
+statement     := &quot;if&quot; expr block [ &quot;else&quot; block ]
+                 | &quot;while&quot; expr block
+                 | &quot;for&quot; forcondition block
+                 | simple
+forcondition  := &quot;(&quot; simple &quot;;&quot; simple &quot;;&quot; simple &quot;)&quot;
+module        := [ def | statement ] (&quot;;&quot; | EOL)
+program       := module { module } EOF
+
+---関数関係---
+param         := IDENTIFIER
+params        := param { &quot;,&quot; param }
+param_list    := &quot;(&quot; [ params ] &quot;)&quot;
+def           := &quot;func&quot; IDENTIFIER param_list block
+args          := expr { &quot;,&quot; expr }
+postfix       := &quot;(&quot; [ args ] &quot;)&quot;
+
+---クラス---
+throw new NotImplementedException();
+</code></pre><h3 id="字句解析">字句解析</h3>
+<p>字句解析とは、一連のプログラムを意味を持つ最小単位の字句（トークン）に切り分けていく操作だ。
+あくまで一例だが、以下のようなプログラムが与えられたとき、</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">x</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+    <span style="color:#a6e22e">print</span>(<span style="color:#a6e22e">y</span>)
+}
+</code></pre></div><p>このように字句（トークン）単位に分割するイメージだ。</p>
+<pre><code>&quot;if&quot;, &quot;(&quot;, &quot;x&quot;, &quot;==&quot;, &quot;0&quot;, &quot;)&quot;, &quot;{&quot; .....
+</code></pre><p>この操作は正規表現<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>を使って実装した。この時点ではトークンはあまり細かく分類しておらず、識別子・整数・小数・文字列・真偽値の5種類に分類する。</p>
+<p>正規表現の部分だけを切り出して掲載する。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cs" data-lang="cs"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">readonly</span> <span style="color:#66d9ef">string</span> Ident = <span style="color:#e6db74">@&#34;[A-Z_a-z][A-Z_a-z0-9]*|==|&lt;=|&gt;=|\+=|-=|\*=|\/=|%=|&amp;&amp;|\|\||\p{S}|\p{P}&#34;</span>;
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">readonly</span> <span style="color:#66d9ef">string</span> IntNum = <span style="color:#e6db74">@&#34;[0-9]+&#34;</span>;
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">readonly</span> <span style="color:#66d9ef">string</span> FloatNum = <span style="color:#e6db74">@&#34;[0-9]+\.[0-9]*&#34;</span>;
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">readonly</span> <span style="color:#66d9ef">string</span> String = <span style="color:#e6db74">&#34;\&#34;(\\\\\&#34;|\\\\\\\\|\\\\n|[^\&#34;])*\&#34;&#34;</span>;
+<span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">readonly</span> <span style="color:#66d9ef">string</span> Bool = <span style="color:#e6db74">&#34;True|False&#34;</span>;
+
+<span style="color:#66d9ef">public</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">string</span> RegexPat = <span style="color:#e6db74">$&#34;\\s*((?&lt;comment&gt;//.*)|(?&lt;floatNum&gt;{FloatNum})|(?&lt;intNum&gt;{IntNum})|(?&lt;str&gt;{String})|(?&lt;bool&gt;{Bool})|(?&lt;id&gt;{Ident}))?&#34;</span>;
+
+<span style="color:#66d9ef">private</span> Regex Pattern = <span style="color:#66d9ef">new</span> Regex(RegexPat, RegexOptions.Compiled);
+</code></pre></div><h3 id="構文解析">構文解析</h3>
+<p>構文解析は、字句解析によって得られたトークン列を構文木に変換する操作だ。
+プログラムから必要な情報のみを取り出し、プログラムの構造を木構造に変換する。
+木構造とはデータ構造の一つであり、ある要素が子要素を持ち、さらにその子要素も子要素を持つ・・・という形で、階層が深くなるほど枝分かれしていく構造のことだ。
+例えば、普段使っているパソコンのフォルダ構造なども木構造の一種と考えられる。</p>
+<p><img src="./../../img/k_kiri/lang-tree.png" alt="fig-2"></p>
+<p>構文解析の手法にはいくつかあるが、今回使用したのはLL(0)構文解析と演算子順位法の2つだ。数式の構文解析のみ演算子順位法で行っている。</p>
+<p>She言語での構文解析は、参考書籍[1]に掲載されていたJavaで書かれたParserライブラリをC#に移植して行っている。
+全ての文法ごとにひとつひとつ構文解析のための再帰関数を定義するのは大変だが、このライブラリは流れるようなインターフェース（Fluent interface）<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup>を持っており、楽に実装できた。</p>
+<h4 id="アルゴリズム">アルゴリズム</h4>
+<p>構文解析のアルゴリズムはボトムアップ構文解析（上向き構文解析）とトップダウン構文解析（下向き構文解析）の2つに大別できる。
+前者の方法は隣接するトークンをまとめることを繰り返し、上位の構造を作っていくアルゴリズムだ。有名なものにLR構文解析というアルゴリズムがあるそうだ。
+後者の方法は上位の構造から作り、だんだん下位の構造へと組み立てていくアルゴリズムだ。読み込むものを先に仮定し、それに合ったプログラムかを確かめて行く方法であると言える。LL(k)法はこちらにあたる。(kはトークンを先読みする数。k=1の場合が多い。)</p>
+<p>LL(1)法はLR法より構文の自由度が制限されるが実装が楽である。
+又、演算子順位法とはその名の通り、演算子の優先順位をもとに構文木を組み立てる手法だ。</p>
+<h4 id="トップダウン構文解析法">トップダウン構文解析法</h4>
+<p>$S→aBd$（$S$から$aBd$という形の文形式が作られることを示す）という文を例にとる。ここで$a,d$は終端記号（最小単位。トークン）で$B$は非終端記号（終端記号の集合体。まだ分けられる）であるとする。トップダウン構文解析法を使って解析するプログラムは、このようなイメージだ。</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-c" data-lang="c"><span style="color:#66d9ef">void</span> <span style="color:#a6e22e">S</span>() {
+    read_a(); <span style="color:#75715e">// aを読む
+</span><span style="color:#75715e"></span>    B();      <span style="color:#75715e">// Bの形を読む
+</span><span style="color:#75715e"></span>    read<span style="color:#f92672">?</span>d();<span style="color:#75715e">// dを読む
+</span><span style="color:#75715e"></span>}
+</code></pre></div><h4 id="構文木可視化機能">構文木可視化機能</h4>
+<p>She言語には、構文解析の結果をdot言語<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>形式で出力できる機能があるため、graphbizの<code>dot</code>コマンドを使って構文木をグラフィカルに表示できる。
+この言語の目玉機能だ。
+<img src="./../../img/k_kiri/out.png" alt="ast">
+（少し表示が崩れているが、時間があるときに直そうと思う。）</p>
+<h4 id="repl">REPL</h4>
+<p>対話型プログラミングに対応している。
+REPL (Read-Eval-Print Loop) とはプログラミング言語の実行形式の一つで、利用者が入力欄にキーボードなどから式や文を一行入力すると、即座に解釈・実行して結果を返し、再び入力可能になるものだ。
+pythonなどの人気なインタプリタ型の言語は、大抵REPLが用意されている。</p>
+<h3 id="意味解析">意味解析</h3>
+<p>She言語では意味解析をしていない。構文木を組み立てるとすぐに実行する。
+正しいプログラムでない場合は実行時エラーとなる。</p>
+<h3 id="インタプリタ実行">インタプリタ実行</h3>
+<p>深さ優先探索の要領で、再帰的に評価を行うメンバ関数を呼び出し、構文木をたどることでプログラムを実行する。</p>
+<h2 id="she言語のプログラムの例">She言語のプログラムの例</h2>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-javascript" data-lang="javascript"><span style="color:#ae81ff">12</span> <span style="color:#f92672">+</span> <span style="color:#ae81ff">34</span> <span style="color:#f92672">*</span> (<span style="color:#ae81ff">56</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">78</span>) <span style="color:#75715e">// 四則演算
+</span><span style="color:#75715e"></span>
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">x</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>   <span style="color:#75715e">// xを宣言し、0を代入
+</span><span style="color:#75715e"></span>
+<span style="color:#75715e">// 配列（一次元のみ）
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">let</span> <span style="color:#a6e22e">y</span> <span style="color:#f92672">=</span> [<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">3</span>, <span style="color:#ae81ff">5</span>]
+
+<span style="color:#75715e">// if文
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">x</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">0</span>) {
+    ;
+} <span style="color:#66d9ef">else</span> {
+    ;
+}
+
+<span style="color:#75715e">// while文
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">while</span>(<span style="color:#a6e22e">True</span>) {
+    ;
+}
+
+<span style="color:#75715e">// for文
+</span><span style="color:#75715e"></span><span style="color:#66d9ef">for</span>(<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">i</span> <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">10</span>; <span style="color:#a6e22e">i</span> <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>) {
+    ;
+}
+
+<span style="color:#75715e">// フィボナッチ数列を求める関数
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">func</span> <span style="color:#a6e22e">fib</span>(<span style="color:#a6e22e">n</span>) {
+    <span style="color:#66d9ef">if</span>(<span style="color:#a6e22e">n</span> <span style="color:#f92672">&lt;</span> <span style="color:#ae81ff">2</span>) {
+        <span style="color:#a6e22e">n</span>
+    } <span style="color:#66d9ef">else</span> {
+        <span style="color:#a6e22e">fib</span>(<span style="color:#a6e22e">n</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">+</span> <span style="color:#a6e22e">fib</span>(<span style="color:#a6e22e">n</span> <span style="color:#f92672">-</span> <span style="color:#ae81ff">2</span>)
+    }
+}
+
+<span style="color:#75715e">// 備え付けの関数
+</span><span style="color:#75715e"></span><span style="color:#a6e22e">print</span>(<span style="color:#e6db74">&#34;hello world&#34;</span>)
+<span style="color:#66d9ef">let</span> <span style="color:#a6e22e">hoge</span> <span style="color:#f92672">=</span> <span style="color:#a6e22e">input</span>()
+<span style="color:#66d9ef">int</span>(<span style="color:#a6e22e">hoge</span>)
+<span style="color:#66d9ef">typeof</span>(<span style="color:#a6e22e">hoge</span>)
+<span style="color:#a6e22e">currentTime</span>()
+<span style="color:#a6e22e">len</span>(<span style="color:#a6e22e">y</span>)
+</code></pre></div><h2 id="参考書籍">参考書籍</h2>
+<ol>
+<li>千葉 滋, <a href="https://www.amazon.co.jp/dp/4774149748">2週間でできる! スクリプト言語の作り方</a>, 技術評論社, 2012/2/10</li>
+<li>中田 育男, <a href="https://www.amazon.co.jp/dp/4274221164">コンパイラ: 作りながら学ぶ</a>, オーム社, 2017/10/25</li>
+</ol>
+<p>主にこの2冊を読み勉強した。おすすめなのでぜひ読んでみてほしい。</p>
+<section class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1" role="doc-endnote">
+<p>文字列内で文字の組み合わせを照合するために用いられるパターン&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2" role="doc-endnote">
+<p>メソッドチェーンを利用して DSL的な仕組みを実現するテクニックのこと&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3" role="doc-endnote">
+<p><a href="https://ja.wikipedia.org/wiki/DOT">https://ja.wikipedia.org/wiki/DOT</a>言語&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</section>
+
+        
+        <a href="https://twitter.com/intent/tweet?button_hashtag=六甲学院物理部2021&ref_src=twsrc%5Etfw"
+          class="twitter-hashtag-button" data-show-count="false">Tweet #六甲学院物理部2021</a>
+        <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+      </div>
+    </div>
+  </div>
+</div>
+
+          </div>
+      </div>
+  </div>
+  <script src="https://rokkophysicsclub.github.io/rpc-2021/js/jquery.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/bootstrap.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/jquery.cookie.js"> </script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/ekko-lightbox.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/jquery.scrollTo.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/masonry.pkgd.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/imagesloaded.pkgd.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/owl.carousel.min.js"></script>
+<script src="https://rokkophysicsclub.github.io/rpc-2021/js/front.js"></script>
+
+
+
+</body>
+</html>
