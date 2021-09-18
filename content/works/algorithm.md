@@ -9,8 +9,10 @@ weight: 5
 
 <div align="right">80th Cyclone28</div>
 
+物理階段教室で行われた発表のスライドです。
+
 <div class="pdf">
-    <iframe src="https://drive.google.com/file/d/1l6YgKAYfvjufrxD01CUW_IGb0qfEra-7/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1CVIzlCfBn4627cLh46s09PWsFaEcTy0r/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
 <style>
