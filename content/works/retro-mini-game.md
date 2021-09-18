@@ -4,10 +4,10 @@ date: 2021-09-17T20:21:42+09:00
 description: "ただのミニゲーム。操作がとても単純。"  
 image:  
 draft: false  
-weight: 5  
+weight: 10
 ---
 
-<div align="right">82期 Gen-San</div>
+<div align="right">82th KOUYA</div>
 
 ## 概要 
 

@@ -331,7 +331,7 @@ SIDEBAR + RIGHT COLUMN
   }
 }
 .sidebar-heading {
-  font-size: 18px;
+  font-size: 22px;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
@@ -349,7 +349,7 @@ SIDEBAR + RIGHT COLUMN
 }
 .sidebar-p {
   color: #505050;
-  font-size: 14px;
+  font-size: 16px;
 }
 .sidebar-menu {
   list-style-type: none;
@@ -1586,7 +1586,7 @@ STYLE SWITCHER FOR DEMO
 body {
   // font-family: "Roboto", Helvetica, Arial, sans-serif;
   font-family: "游明朝", "YuMincho", "ヒラギノ明朝 Pro W3", "Hiragino Mincho Pro", "ＭＳ Ｐ明朝", "MS PMincho", serif;
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.55;
   color: #000000;
   background-color: #f4f4f4;

@@ -4,7 +4,7 @@ date: 2021-09-17T20:00:00+09:00
 description: "Processingを使ってWebカメラから入力した画像をリアルタイムでフィルタ処理する。"
 image: ""
 draft: false
-weight: 20
+weight: 7
 ---
 
 <div align="right">82nd 2940</div>

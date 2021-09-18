@@ -60,8 +60,8 @@ Processingとの連携はシリアル通信で行った。
 
 ## 製作風景
 
-![1](./img/k_kiri/sh-02.jpg)
-![2](./img/k_kiri/sh-03.jpg)
+![1](./../../img/k_kiri/sh-02.jpg)
+![2](./../../img/k_kiri/sh-03.jpg)
 
 ## 最後に
 

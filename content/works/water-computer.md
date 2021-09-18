@@ -4,7 +4,7 @@ date: 2021-09-15T00:00:00+09:00
 description: "天才的発明なのに日の目を見ないテスラバルブについての研究。"
 image: "./img/kanazawa_kureha/0.jpg"
 draft: false
-weight: 5
+weight: 4
 ---
 
 <div align="right">80期 金沢クレハ</div>

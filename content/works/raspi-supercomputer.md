@@ -4,7 +4,7 @@ date: 2021-9-7
 description: "果たしてこれはスーパコンピュータと呼べるのか。"
 image: "./img/k_kiri/raspi-01.jpg"
 draft: false
-weight: 4
+weight: 8
 ---
 
 <div align="right">80th k_kiri</div>

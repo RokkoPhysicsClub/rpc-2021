@@ -1,11 +1,15 @@
 ---
 title: "２Dプラットフォーマ"
 date: 2021-9-9
-description: "結構研究して作った。"
-image: ""
+description: "横スクロールアクションゲーム"
+image: "./img/Y/platformer.png"
 draft: false
 weight: 12
 ---
+
+<div align="right">83th Y</div>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/IuuDJV-IUL4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 結構研究して作った。
 
@@ -26,3 +30,5 @@ weight: 12
 次から…
 - 作ることができなかったコントローラに再挑戦する。
 - ステージをつくる。
+
+補足：[プラットフォーマー（ゲーム）とは](https://ja.wikipedia.org/wiki/プラットフォーム・ゲーム)
