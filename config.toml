@@ -6,7 +6,7 @@ hasCJKLanguage = true
 # Enable comments by entering your Disqus shortname
 disqusShortname = ""
 # Enable Google Analytics by entering your tracking code
-googleAnalytics = "G-JHR8TX2M07"
+googleAnalytics = "UA-177509243-2"
 publishDir = "docs"
 
 [params]
