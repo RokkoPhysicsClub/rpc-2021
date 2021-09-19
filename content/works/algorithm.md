@@ -12,7 +12,7 @@ weight: 5
 物理階段教室で行われた発表のスライドです。
 
 <div class="pdf">
-    <iframe src="https://drive.google.com/file/d/1CVIzlCfBn4627cLh46s09PWsFaEcTy0r/preview" width="640" height="480" allow="autoplay"></iframe>
+    <iframe src="https://drive.google.com/file/d/1xTdoIBadBGVJ9sUQ_NknDpTwMu-9E45S/preview" width="640" height="480" allow="autoplay"></iframe>
 </div>
 
 <style>
