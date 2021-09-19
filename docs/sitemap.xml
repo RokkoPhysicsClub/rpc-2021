@@ -2,49 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>/works/programming-language/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/photo/</loc>
   </url><url>
-    <loc>/works/spacon-taikenjuku/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/programming-language/</loc>
   </url><url>
-    <loc>/works/raspi-supercomputer/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/spacon-taikenjuku/</loc>
   </url><url>
-    <loc>/works/retro-mini-game/</loc>
-    <lastmod>2021-09-17T20:21:42+09:00</lastmod>
-  </url><url>
-    <loc>/works/shimple_shooting/</loc>
-    <lastmod>2021-09-16T20:30:31+09:00</lastmod>
-  </url><url>
-    <loc>/works/water-computer/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/water-computer/</loc>
     <lastmod>2021-09-15T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/works/shepard-tone/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/algorithm/</loc>
+    <lastmod>2021-09-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/works/sierpinski-gasket/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/shimple_shooting/</loc>
+    <lastmod>2021-09-16T20:30:31+09:00</lastmod>
   </url><url>
-    <loc>/works/book-manager/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/shepard-tone/</loc>
   </url><url>
-    <loc>/works/actiongame/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/sierpinski-gasket/</loc>
   </url><url>
-    <loc>/works/processing-video/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/processing-video/</loc>
     <lastmod>2021-09-17T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>/works/yokege-/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/auto_osero/</loc>
+    <lastmod>2020-09-19T01:00:44+09:00</lastmod>
+  </url><url>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/raspi-supercomputer/</loc>
+  </url><url>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/book-manager/</loc>
+  </url><url>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/retro-mini-game/</loc>
+    <lastmod>2021-09-17T20:21:42+09:00</lastmod>
+  </url><url>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/actiongame/</loc>
+  </url><url>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/yokege-/</loc>
     <lastmod>2021-09-16T20:00:00+09:00</lastmod>
   </url><url>
-    <loc>/works/</loc>
-    <lastmod>2021-09-17T20:21:42+09:00</lastmod>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/safe-game/</loc>
+    <lastmod>2021-09-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/</loc>
-    <lastmod>2021-09-17T20:21:42+09:00</lastmod>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/works/</loc>
+    <lastmod>2021-09-18T00:00:00+09:00</lastmod>
   </url><url>
-    <loc>/welcome/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/</loc>
+    <lastmod>2021-09-18T00:00:00+09:00</lastmod>
+  </url><url>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/welcome/</loc>
     <lastmod>2020-09-09T20:54:58+09:00</lastmod>
   </url><url>
-    <loc>/about/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/about/</loc>
     <lastmod>2020-08-19T17:56:42+09:00</lastmod>
   </url><url>
-    <loc>/categories/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/categories/</loc>
   </url><url>
-    <loc>/tags/</loc>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/tags/</loc>
+  </url><url>
+    <loc>https://rokkophysicsclub.github.io/rpc-2021/afterword/</loc>
   </url>
 </urlset>

@@ -2,7 +2,7 @@
 title: "非接触！障害物を避けるゲーム"
 date: 2021-09-18T00:00:00+09:00
 description: "音で操作するゲーム"
-image: ".png"
+image: "./img/k_kiri/game.png"
 draft: false
 weight: 30
 ---
@@ -10,6 +10,7 @@ weight: 30
 <div align="right">80th k_kiri</div>
 
 [後日動画を投稿します]
+![](./../../img/k_kiri/game.png)
 
 ## きっかけ
 今年の文化祭では、コロナウイルス感染拡大防止の観点から観客に触ってもらう展示が禁止となった。

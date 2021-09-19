@@ -2,117 +2,153 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>六甲学院物理部2021</title>
-    <link>/</link>
+    <link>https://rokkophysicsclub.github.io/rpc-2021/</link>
     <description>Recent content on 六甲学院物理部2021</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>ja-jp</language>
-    <lastBuildDate>Fri, 17 Sep 2021 20:21:42 +0900</lastBuildDate><atom:link href="/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 18 Sep 2021 00:00:00 +0900</lastBuildDate><atom:link href="https://rokkophysicsclub.github.io/rpc-2021/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>自作プログラミング言語</title>
-      <link>/works/programming-language/</link>
+      <title>文化祭当日の様子</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/photo/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/works/programming-language/</guid>
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/photo/</guid>
+      <description>中1が頑張って作ってくれた看板 毎年恒例人数カウンター テスラバルブ 蔵書管理システムで”ピッ”ってやっているところ 無限音階ピアノのコントローラ 散</description>
+    </item>
+    
+    <item>
+      <title>自作プログラミング言語</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/programming-language/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/programming-language/</guid>
       <description>80th k_kiri 注意：素人なので専門用語等に関して不正確である可能性があります。ご了承下さい。 はじめに C, C++, C#, Java, Python, Julia, JavaScript, Rubyなど、プログラミング言語はた</description>
     </item>
     
     <item>
       <title>スパコン体験塾参加記（夏）</title>
-      <link>/works/spacon-taikenjuku/</link>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/spacon-taikenjuku/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/works/spacon-taikenjuku/</guid>
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/spacon-taikenjuku/</guid>
       <description>80th k_kiri スパコン体験塾について スパコン体験塾は高度情報科学技術研究機構（RIST）が主催するイベントで、 参加者がスパコン「富岳」を使いながら与え</description>
     </item>
     
     <item>
-      <title>ラズパイ・スパコン</title>
-      <link>/works/raspi-supercomputer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/works/raspi-supercomputer/</guid>
-      <description>80th k_kiri はじめに タイトル「ラズパイ・スパコン」は明らかに誇張表現だ。先ず謝っておこうと思う。 しかし、スパコンと呼ぶのには理由がある。 このラズパイ</description>
-    </item>
-    
-    <item>
-      <title>レトロミニゲーム</title>
-      <link>/works/retro-mini-game/</link>
-      <pubDate>Fri, 17 Sep 2021 20:21:42 +0900</pubDate>
-      
-      <guid>/works/retro-mini-game/</guid>
-      <description>82期 Gen-San 概要 ちょっとレトロ風なミニゲーム 詳しい説明 ゲームは二つある(ゲームの内容は言ってしまうと面白くないので&amp;hellip;) 操作はとって</description>
-    </item>
-    
-    <item>
-      <title>ミニゲーム</title>
-      <link>/works/shimple_shooting/</link>
-      <pubDate>Thu, 16 Sep 2021 20:30:31 +0900</pubDate>
-      
-      <guid>/works/shimple_shooting/</guid>
-      <description>83rd kusa51 &amp; 0x4C 初めに このゲームは、簡単に言うと、普通の(?)シューティングゲームです。普通のシューティングゲームですがレベル機能があったりします。</description>
-    </item>
-    
-    <item>
       <title>ウォーターコンピューターの夢</title>
-      <link>/works/water-computer/</link>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/water-computer/</link>
       <pubDate>Wed, 15 Sep 2021 00:00:00 +0900</pubDate>
       
-      <guid>/works/water-computer/</guid>
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/water-computer/</guid>
       <description>80期 金沢クレハ 電気を一切使わない汎用コンピューター &amp;hellip;と聞いたら驚かれますでしょうか？ スマホも、タブレットも、パソコンも、全て</description>
     </item>
     
     <item>
+      <title>好きなアルゴリズム</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/algorithm/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/algorithm/</guid>
+      <description>80th Cyclone28 物理階段教室で行われた発表のスライドです。 .pdf { margin-top:20px; position:relative; width:100%; height:0; padding-top:75%; } .pdf iframe{ position:absolute; top:0; left:0; width:100%; height:100%; }</description>
+    </item>
+    
+    <item>
+      <title>ミニゲーム</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/shimple_shooting/</link>
+      <pubDate>Thu, 16 Sep 2021 20:30:31 +0900</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/shimple_shooting/</guid>
+      <description>83rd kusa51 &amp; 0x4C 初めに このゲームは、簡単に言うと、普通の(?)シューティングゲームです。普通のシューティングゲームですがレベル機能があったりします。</description>
+    </item>
+    
+    <item>
       <title>無限音階（非接触）ピアノ</title>
-      <link>/works/shepard-tone/</link>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/shepard-tone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/works/shepard-tone/</guid>
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/shepard-tone/</guid>
       <description>80th k_kiri 無限音階とは 名前の通り、永遠に高くなっていく（ように聞こえる）音のことである。目の錯覚を利用した絵などはよく見るが、これは耳の錯覚を利用</description>
     </item>
     
     <item>
       <title>シェルピンスキーのギャスケット</title>
-      <link>/works/sierpinski-gasket/</link>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/sierpinski-gasket/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/works/sierpinski-gasket/</guid>
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/sierpinski-gasket/</guid>
       <description>83rd harumaki はじめに 今回発表するのはシェルピンスキーのギャスケットを描画するプログラムだ。 立体を表現しようとしたが、どうしても時間が限界だったため p</description>
     </item>
     
     <item>
-      <title>部室の蔵書管理システム</title>
-      <link>/works/book-manager/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/works/book-manager/</guid>
-      <description>80th k_kiri 蔵書管理システム「Book Manager 65」はこちらから見ることができます。 作ったワケ 大掃除 4月頃に部室の大掃除をした時、本棚の本を全て取り出し種</description>
-    </item>
-    
-    <item>
-      <title>２Dプラットフォーマ</title>
-      <link>/works/actiongame/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/works/actiongame/</guid>
-      <description>結構研究して作った。 移動：&amp;lt;- a, d -&amp;gt; ジャンプ：上キー スティック：下キー 銃：左右キー プログラミングアプリProcessingを使い、画面</description>
-    </item>
-    
-    <item>
       <title>Webカメラの映像をProcessingで表示してみた</title>
-      <link>/works/processing-video/</link>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/processing-video/</link>
       <pubDate>Fri, 17 Sep 2021 20:00:00 +0900</pubDate>
       
-      <guid>/works/processing-video/</guid>
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/processing-video/</guid>
       <description>82nd 2940 概要 Webカメラから入力した画像をリアルタイムでフィルタ処理するものです。 仕組み Processingのライブラリの[video|GStr</description>
     </item>
     
     <item>
+      <title>自動反転オセロ</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/auto_osero/</link>
+      <pubDate>Sat, 19 Sep 2020 01:00:44 +0900</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/auto_osero/</guid>
+      <description>自動反転オセロ 80th NAKAMU 「常識なんて、ひっくリ返せ」 「自動反転オセロ」とは？ 石を置くと、自動で挟んだ石をひっくり返してくれるという驚異の装置です。</description>
+    </item>
+    
+    <item>
+      <title>ラズパイ・スパコン</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/raspi-supercomputer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/raspi-supercomputer/</guid>
+      <description>80th k_kiri はじめに タイトル「ラズパイ・スパコン」は明らかに誇張表現だ。先ず謝っておこうと思う。 しかし、スパコンと呼ぶのには理由がある。 このラズパイ</description>
+    </item>
+    
+    <item>
+      <title>部室の蔵書管理システム</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/book-manager/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/book-manager/</guid>
+      <description>80th k_kiri 蔵書管理システム「Book Manager 65」はこちらから見ることができます。 作ったワケ 大掃除 4月頃に部室の大掃除をした時、本棚の本を全て取り出し種</description>
+    </item>
+    
+    <item>
+      <title>レトロミニゲーム</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/retro-mini-game/</link>
+      <pubDate>Fri, 17 Sep 2021 20:21:42 +0900</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/retro-mini-game/</guid>
+      <description>82th KOUYA 概要 ちょっとレトロ風なミニゲーム 詳しい説明 ゲームは二つある(ゲームの内容は言ってしまうと面白くないので&amp;hellip;) 操作はとっても単</description>
+    </item>
+    
+    <item>
+      <title>２Dプラットフォーマ</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/actiongame/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/actiongame/</guid>
+      <description>83th Y 結構研究して作った。 移動：&amp;lt;- a, d -&amp;gt; ジャンプ：上キー スティック：下キー 銃：左右キー プログラミングアプリProcessingを使い、</description>
+    </item>
+    
+    <item>
       <title>避けゲー</title>
-      <link>/works/yokege-/</link>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/yokege-/</link>
       <pubDate>Thu, 16 Sep 2021 20:00:00 +0900</pubDate>
       
-      <guid>/works/yokege-/</guid>
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/yokege-/</guid>
       <description>81st motimiti はじめに 弾からよけ続けるゲームを作りました。 使用した言語 Processingという言語を使いました。 手順 弾の発生を中心にして書き、自機が</description>
+    </item>
+    
+    <item>
+      <title>非接触！障害物を避けるゲーム</title>
+      <link>https://rokkophysicsclub.github.io/rpc-2021/works/safe-game/</link>
+      <pubDate>Sat, 18 Sep 2021 00:00:00 +0900</pubDate>
+      
+      <guid>https://rokkophysicsclub.github.io/rpc-2021/works/safe-game/</guid>
+      <description>80th k_kiri [後日動画を投稿します] きっかけ 今年の文化祭では、コロナウイルス感染拡大防止の観点から観客に触ってもらう展示が禁止となった。 そこで、音で</description>
     </item>
     
   </channel>
