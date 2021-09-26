@@ -149,7 +149,7 @@ if (!doNotTrack) {
 普通はC言語やC++言語を使うのかもしれないが、参考にした書籍（参考書籍[1]）がJavaを使用したオブジェクト指向で綺麗に実装していたので、それに感銘を受け、同じくオブジェクト指向かつ自分が書きやすいC#で書くことにした。</p>
 <h3 id="文法">文法</h3>
 <p>BNF記法でのShe言語文法定義。</p>
-<pre><code>---基礎---
+<pre tabindex="0"><code>---基礎---
 primary       := ( &quot;(&quot; expr &quot;)&quot; | NUMBER | IDENTIFIER | STRING ) { postfix }
 factor        := &quot;-&quot; primary | primary
 expr          := factor { OP factor }
@@ -180,7 +180,7 @@ throw new NotImplementedException();
     <span style="color:#a6e22e">print</span>(<span style="color:#a6e22e">y</span>)
 }
 </code></pre></div><p>このように字句（トークン）単位に分割するイメージだ。</p>
-<pre><code>&quot;if&quot;, &quot;(&quot;, &quot;x&quot;, &quot;==&quot;, &quot;0&quot;, &quot;)&quot;, &quot;{&quot; .....
+<pre tabindex="0"><code>&quot;if&quot;, &quot;(&quot;, &quot;x&quot;, &quot;==&quot;, &quot;0&quot;, &quot;)&quot;, &quot;{&quot; .....
 </code></pre><p>この操作は正規表現<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>を使って実装した。この時点ではトークンはあまり細かく分類しておらず、識別子・整数・小数・文字列・真偽値の5種類に分類する。</p>
 <p>正規表現の部分だけを切り出して掲載する。</p>
 <div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-cs" data-lang="cs"><span style="color:#66d9ef">private</span> <span style="color:#66d9ef">static</span> <span style="color:#66d9ef">readonly</span> <span style="color:#66d9ef">string</span> Ident = <span style="color:#e6db74">@&#34;[A-Z_a-z][A-Z_a-z0-9]*|==|&lt;=|&gt;=|\+=|-=|\*=|\/=|%=|&amp;&amp;|\|\||\p{S}|\p{P}&#34;</span>;
